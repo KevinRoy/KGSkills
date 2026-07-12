@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android ANR Analysis"
+  short_description: "Analyze Android ANR traces and logs"
+  default_prompt: "Use $android-anr-analysis to diagnose this Android ANR from traces and logcat."
+
+policy:
+  allow_implicit_invocation: true

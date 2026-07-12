@@ -1,0 +1,15 @@
+interface:
+  display_name: "Skill Template"
+  short_description: "Standard template for reusable Codex skills"
+  default_prompt: "Use $skill-template to create a clean reusable Codex skill scaffold."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "replace-with-mcp-server-id"
+      description: "Optional MCP dependency used by skills copied from this template."
+      transport: "streamable_http"
+      url: "https://example.com/mcp"
+
+policy:
+  allow_implicit_invocation: true
